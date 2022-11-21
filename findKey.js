@@ -16,7 +16,7 @@ const assertEqual = function(actual, expected) {
 
 
 const findKey = function(objects, callback) {
-  //onst Obj = Object.keys(objects);
+  
   // console.log(Obj);
   for (let key in objects) {
     //  console.log(callback(key))
