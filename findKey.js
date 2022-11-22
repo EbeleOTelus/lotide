@@ -50,4 +50,4 @@ const findKey = function(objects, callback) {
   assertEqual(findKey(object1, x => x.stars === 4), "noma");
   assertEqual(findKey(object1, x => x.stars === 3), "Akaleri");
 
-  
+  module.exports = findKey;

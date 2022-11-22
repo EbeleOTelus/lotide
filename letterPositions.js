@@ -41,5 +41,5 @@ return answer;
 assertArraysEqual(letterPositions("hello"), [1]);
 
 
-
+module.exports = letterPositions;
 

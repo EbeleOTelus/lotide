@@ -31,3 +31,4 @@ return result;
  countLetters("lhl");
  console.log(countLetters("lhl"));
 
+module.exports = countLetters;
